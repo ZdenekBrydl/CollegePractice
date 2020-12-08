@@ -1,6 +1,6 @@
-Vasim ukolem je naprogramovat nasledujici funkce:
-1) getLength: zjisti delku (tj. pocet ruznych uzlu) seznamu
-2) isCircular: otestuje, zda je seznam kruhovy
+Vasim ukolem je naprogramovat nasledujici funkce:<br />
+1) getLength: zjisti delku (tj. pocet ruznych uzlu) seznamu<br />
+2) isCircular: otestuje, zda je seznam kruhovy<br />
 3) calculateOpposites: pro kruhove seznamy delky 2n naplni u kazdeho uzlu
 polozku opposite uzlem, ktery je o n kroku dale (tedy v kruhu je to uzel
 "naproti"). Napriklad v kruhovem seznamu 1 -> 2 -> 3 -> 4 (-> 1) je opposite
