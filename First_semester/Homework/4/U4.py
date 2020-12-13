@@ -6,9 +6,9 @@ def piskvorky():
     #kontrola velikosti plánu:
     while((plan<5)or(plan>50)):
         if(plan<5):
-            plan= int(input("zadej vyšší hodnotu: "))
+            plan= int(input("Zadej vyšší hodnotu: "))
         else:
-            plan= int(input("zadej nižší hodnotu: "))
+            plan= int(input("Zadej nižší hodnotu: "))
     zacina_hrac= int(input("Zadej 1 pro to, aby jsi začínal ty, nebo 0, aby začínal počítač: "))
     #kontrola začínajícího hráče:
     while((zacina_hrac!=0)and(zacina_hrac!=1)):
@@ -20,7 +20,7 @@ def piskvorky():
         uroven_AI= int(input("!1! pro nejhloupějšího, !2! pro průměrného, !3! pro nejchytřejšícho: "))
         uroven_debility+= 1
         if(uroven_debility>1):
-            print("Všechny tři umělé inteligence se shodli na tom, že s takovým idiotem hrát nechcou.")
+            print("Všechny tři umělé inteligence se shodli na tom, že s takovým idiotem hrát nechtějí.")
             return "Idiot"
     #seznam plánu:
     hra_plan= []
